@@ -242,21 +242,12 @@ TEST SUMMARY: 16 PASSED, 0 FAILED (Total: 16)
 
 ---
 
-## 🎥 Demo Video Guide (Max 5 Minutes)
-
-When recording your submission demo, follow this concise script:
-
-| Timestamp | Segment | Actions to Show |
-| :--- | :--- | :--- |
-| **0:00 – 0:45** | **Login & UI Overview** | Open `http://localhost:5173`. Click **Quick Demo Sign-In** (or Google Sign-In). Show the user header (avatar, name, email), stats overview cards, and rate limit gauge. |
-| **0:45 – 1:45** | **Compose & Schedule** | Click **Compose New Email**. Enter subject and body. Paste or drag a CSV list of leads and show the **"X valid recipients detected"** badge. Select preset `+1 Min`. Click **Schedule**. Show rows appearing in **Scheduled Emails** table with countdown `in 1 min`. |
-| **1:45 – 3:15** | **Restart Scenario** | Schedule an email for `+3 Minutes`. Stop the backend server process (`Ctrl+C`). Wait 15 seconds. Restart server (`npm run dev`). Point out log `[Restart Recovery] Found pending SCHEDULED emails`. Fast-forward or wait until target time: show BullMQ worker processing the email automatically with status updating to `SENT` without duplicate sends. |
-| **3:15 – 4:15** | **Rate Limiting & Delay** | Schedule 5 emails with `hourlyLimit = 3`. Show the first 3 emails send and the remaining 2 automatically reschedule to the next hour window (`moveToDelayed()`) instead of dropping or failing. |
-| **4:15 – 5:00** | **Sent Emails & Ethereal Inbox** | Click the **Sent Emails** tab. Click **"View Inbox"** on an email row to open the rendered Ethereal HTML email in a new tab. |
+## 🎥 Demo Video
 
 > **Browser UI Recording Artifact**:
 > An automated browser verification recording is saved at:
-> `file:///C:/Users/GAURAVJANGRA/.gemini/antigravity-ide/brain/b318fb7d-6ce6-473c-b4db-c3b89ad720e0/frontend_ui_test_1789189442606.webp`
+[▶️ Watch Demo](https://drive.google.com/file/d/18N4YNamoPsBf-WyZQTDg_OFjCE1Pcacu/view?usp=sharing)
+> `https://drive.google.com/file/d/18N4YNamoPsBf-WyZQTDg_OFjCE1Pcacu/view?usp=sharing`
 
 ---
 
