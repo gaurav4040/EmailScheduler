@@ -244,7 +244,7 @@ TEST SUMMARY: 16 PASSED, 0 FAILED (Total: 16)
 
 ## 🎥 Demo Video
 
-> **Browser UI Recording Artifact**:
+> **Browser UI Recording Artifact (webp fromat - if not able to play click to download the file)**:
 > An automated browser verification recording is saved at:
 [▶️ Watch Demo](https://drive.google.com/file/d/18N4YNamoPsBf-WyZQTDg_OFjCE1Pcacu/view?usp=sharing)
 > `https://drive.google.com/file/d/18N4YNamoPsBf-WyZQTDg_OFjCE1Pcacu/view?usp=sharing`
